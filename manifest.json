@@ -1,0 +1,56 @@
+{
+  "name": "i-am-so-wrong-silk",
+  "displayName": "我很冤",
+  "version": "2.0.0",
+  "description": "一个让 AI 反复自查、确保任务完完全全完成的 Silk 库（v2：任务锁定 + 质疑应对 + 编程文本全面优化）。",
+  "main": "index.js",
+  "entry": "index.js",
+  "author": {
+    "name": "Operit Silk Community",
+    "maintainer": "Hua-Qin"
+  },
+  "license": "MIT",
+  "keywords": [
+    "silk",
+    "self-check",
+    "intent-lock",
+    "task-verification",
+    "challenge-handle",
+    "program-optimize",
+    "editing",
+    "qa"
+  ],
+  "capabilities": [
+    "lockTask",
+    "selfCheckLoop",
+    "runOnce",
+    "taskReconcile",
+    "goalCompare",
+    "syntaxCheck",
+    "contentProofread",
+    "styleCheck",
+    "programOptimize",
+    "challengeHandle",
+    "enhanceEdit"
+  ],
+  "files": [
+    "index.js",
+    "src/utils.js",
+    "src/syntaxChecker.js",
+    "src/contentChecker.js",
+    "src/styleChecker.js",
+    "src/taskVerifier.js",
+    "src/editor.js",
+    "src/selfCheck.js",
+    "src/intentLock.js",
+    "src/programOptimizer.js",
+    "src/grievance.js",
+    "prompts/system.md",
+    "prompts/checklist.md",
+    "examples/demo.md",
+    "tests/selfCheck.test.js",
+    "README.md",
+    "SILK.md",
+    "LICENSE"
+  ]
+}
